@@ -122,7 +122,11 @@ p {
 
 /* Image & Figure */
 
-img {}
+img {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 50rem;
+}
 
 figure {
     margin-bottom: 2rem;
@@ -135,4 +139,7 @@ figcaption {
 
 /* Footer */
 
-
+footer {
+    padding: 1rem;
+    border-top: 2rem; solid #333
+}
