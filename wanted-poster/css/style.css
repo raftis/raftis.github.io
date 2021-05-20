@@ -100,7 +100,7 @@ h4 {
 }
 
 h5 {
-    font-size 1rem;
+    font-size:1rem;
     margin-top:.25rem;
     padding: .5rem;
     background-color:#333;
@@ -147,5 +147,5 @@ figcaption {
 
 footer {
     padding:1rem;
-    border-top:2rem; solid #333;
+    border-top:2rem solid #333;
 }
