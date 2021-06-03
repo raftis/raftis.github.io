@@ -47,6 +47,24 @@
 
 
 /* ------ START WRITING YOUR CODE BELOW ------ */
+@font-face {
+    font-family:Lato;
+    src: url(../fonts/sans-serif/lato-regular.ttf);
+    font-style:normal;
+    font-weight:normal;
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(../fonts/sans-serif/roboto-regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+html {
+    font-family: Roboto, Arial, sans-serif;
+    font-size:16px;
+}
 
 .main-section {
     display: flex;
@@ -65,4 +83,34 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(5rem,1fr));
     grid-column-gap: 1%;
+}
+
+figure {
+    width: 100%;
+    margin: 0 1% 0 0;
+    float: left;
+}
+
+.aside {
+    
+}
+
+h1 {
+    font-family: Roboto, Arial, sans-serif;
+    letter-spacing: .07rem;
+    font-size: 3rem;
+    text-align: center;
+}
+
+h2 {
+    font-family: Lato, Arial, sans-serif;
+    font-size: 2rem;
+    text-align: left;
+}
+
+h3 {
+    font-family: Lato, Arial, sans-serif;
+    font-size: 1rem;
+    margin: 0;
+    text-align: left;
 }
